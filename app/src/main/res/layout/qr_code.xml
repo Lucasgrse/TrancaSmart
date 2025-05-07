@@ -7,7 +7,7 @@
     android:layout_centerInParent="true"
     android:layout_centerVertical="true"
     android:layout_marginTop="10dp"
-    tools:context=".activity.QrCode">
+    tools:context=".activity.GenerateQrCodeForESP">
 
     <ImageView
         android:id="@+id/imageQrCode"

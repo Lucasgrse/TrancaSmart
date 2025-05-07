@@ -33,10 +33,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.QrCode"
+            android:name=".activity.GenerateQrCodeForESP"
             android:exported="true"
             android:label="GenerateQrCode"
-            android:theme="@style/Theme.TrancaSmart">
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />

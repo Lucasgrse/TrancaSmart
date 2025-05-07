@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="10dp"
+    tools:context=".activity.QrCode">
+
+    <ImageView
+        android:id="@+id/imageQrCode"
+        android:layout_width="289dp"
+        android:layout_height="279dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="205dp"
+        android:contentDescription="@string/qrCodeImage"
+        tools:src="" />
+
+    <TextView
+        android:id="@+id/qrCodeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="-1dp"
+        android:gravity="center"
+        android:text="@string/leia_o_seu_qr_code_abaixo"
+        android:textColor="#090000"
+        android:textSize="16sp" />
+
+</RelativeLayout>

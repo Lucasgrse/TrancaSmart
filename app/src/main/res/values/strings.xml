@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TrancaSmart</string>
+    <string name="leia_seu_qr_code_abaixo">Leia seu QR Code abaixo</string>
+    <string name="leia_o_seu_qr_code_abaixo">Leia o seu QR Code abaixo</string>
+    <string name="qrcodeimage">QrCodeImage</string>
+    <string name="qrCodeImage" />
 </resources>
